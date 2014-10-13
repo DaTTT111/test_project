@@ -1,6 +1,6 @@
+<<<<<<< HEAD
 Git is a version control system.
 Git is free software.
 fix issue1 in issue branch.
 test stash in dev branch.
-
 
