@@ -1,2 +1,2 @@
-FROM 54.223.122.42:5000/web-redis/web-test
+FROM index.alauda.cn/alauda/flask-redis
 ADD app.py /code/app.py
