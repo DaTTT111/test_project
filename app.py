@@ -4,10 +4,10 @@ import os
 
 app = Flask(__name__)
 redis = Redis(host=os.getenv('REDIS_PORT_6379_TCP_ADDR', 'localhost'), port=int(os.getenv('REDIS_PORT_6379_TCP_PORT', 6379)
-                                                                                
+
 @app.route('/')
 def hello():
-    redis.incr('hits')                                                                          
+    redis.incr('hits')
     return 'Hello World! I have been seen %s times.' % redis.get('hits')
 
 if __name__ == "__main__":
