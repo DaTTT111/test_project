@@ -1,2 +1,2 @@
-FROM index.alauda.cn/demo100/web-test
-ADD app.py /code/app.py
+FROM registry.alauda.cn/library/nginx
+ADD app.py /usr/share/nginx/html/index.html
