@@ -1,1 +1,1 @@
-FROM registry.alauda.cn/zhenwu/ftp
+FROM registry.alauda.cn/library/tomcat
