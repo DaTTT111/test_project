@@ -1,1 +1,1 @@
-FROM registry.alauda.cn/library/jenkins
+FROM registry.alauda.cn/alauda/gitlab
