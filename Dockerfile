@@ -1,1 +1,1 @@
-FROM docker pull registry.alauda.cn/library/tomcat
+FROM registry.alauda.cn/library/tomcat
