@@ -1,1 +1,1 @@
-FROM registry.alauda.cn/zhenwu/rabbitmq:3.6.11-management
+FROM docker pull registry.alauda.cn/library/tomcat
